@@ -214,7 +214,7 @@ const Warehouse_2 = () => {
                     p="30px"
                 >
                     <Typography variant="h5" fontWeight="600">
-                        Campaign
+                        Overall Revenue
                     </Typography>
                     <Box
                         display="flex"
@@ -228,7 +228,7 @@ const Warehouse_2 = () => {
                             color={colors.greenAccent[500]}
                             sx={{ mt: "15px" }}
                         >
-                            $48,352 revenue generated
+                            ₹48,352 revenue generated
                         </Typography>
                         <Typography>Includes extra misc expenditures and costs</Typography>
                     </Box>

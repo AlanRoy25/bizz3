@@ -138,7 +138,7 @@ export default function Warehouse() {
                                 <ListGroup.Item className='categoryItem' >Sports</ListGroup.Item>
                                 <ListGroup.Item className='categoryItem' >Decor</ListGroup.Item>
                                 <ListGroup.Item className='categoryItem' >Electronics</ListGroup.Item>
-                                <ListGroup.Item className='categoryItem' >Fitness</ListGroup.Item>
+                                <ListGroup.Item className='categoryItem' >Furniture</ListGroup.Item>
                             </ListGroup>
                         </div>
                     </Col>
