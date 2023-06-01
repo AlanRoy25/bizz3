@@ -320,14 +320,27 @@ export const mockTransactions = [
 export const mockBarData = [
   {
   country: "FRA",
-    "Paint": 13080,
+    "Paint": 3080,
     "PaintColor": "hsl(87, 70%, 50%)",
-    Clothing: 24547,
+    Clothing: 4547,
     ClothingColor: "hsl(141, 70%, 50%)",
-    Furniture: 11258,
+    Furniture: 7258,
     FurnitureColor: "hsl(224, 70%, 50%)",
     Electronics: 1349,
-    ElectronicsColor: "hsl(274, 70%, 50%)",
+    ElectronicsColor: "hsl(183, 100%, 50%)",
+    "Steel": 2032,
+    SteelColor: "hsl(0, 70%, 50%)",
+    "Decor":1542,
+    DecorColor: "hsl(10, 80%, 50%)",
+    "Games":8542,
+    GamesColor: "hsl(34, 70%, 50%)",
+    "Sports":542,
+    SportsColor: "hsl(274, 100%, 100%)",
+    "Stationary":542,
+    StationaryColor: "hsl(294, 70%, 50%)",
+    "Others":542,
+    OthersColor: "hsl(284, 70%, 50%)",
+
   },
   {
     country: "AUS",
@@ -339,6 +352,18 @@ export const mockBarData = [
     FurnitureColor: "hsl(224, 70%, 50%)",
     Electronics: 1349,
     ElectronicsColor: "hsl(274, 70%, 50%)",
+    "Steel": 2032,
+    SteelColor: "hsl(254, 70%, 50%)",
+    "Decor":542,
+    DecorColor: "hsl(244, 70%, 50%)",
+    "Games":542,
+    GamesColor: "hsl(34, 70%, 50%)",
+    "Sports":542,
+    SportsColor: "hsl(24, 70%, 50%)",
+    "Stationary":542,
+    StationaryColor: "hsl(294, 70%, 50%)",
+    "Others":542,
+    OthersColor: "hsl(284, 70%, 50%)",
   },
   {
     country: "AF",
@@ -350,6 +375,18 @@ export const mockBarData = [
     FurnitureColor: "hsl(224, 70%, 50%)",
     Electronics: 1249,
     ElectronicsColor: "hsl(274, 70%, 50%)",
+    "Steel": 2032,
+    SteelColor: "hsl(254, 70%, 50%)",
+    "Decor":542,
+    DecorColor: "hsl(244, 70%, 50%)",
+    "Games":542,
+    GamesColor: "hsl(34, 70%, 50%)",
+    "Sports":542,
+    SportsColor: "hsl(24, 70%, 50%)",
+    "Stationary":542,
+    StationaryColor: "hsl(294, 70%, 50%)",
+    "Others":542,
+    OthersColor: "hsl(284, 70%, 50%)",
   },
   {
     country: "AI",
@@ -361,10 +398,22 @@ export const mockBarData = [
     FurnitureColor: "hsl(224, 70%, 50%)",
     Electronics: 2049,
     ElectronicsColor: "hsl(274, 70%, 50%)",
+    "Steel": 2032,
+    SteelColor: "hsl(254, 70%, 50%)",
+    "Decor":542,
+    DecorColor: "hsl(244, 70%, 50%)",
+    "Games":542,
+    GamesColor: "hsl(34, 70%, 50%)",
+    "Sports":542,
+    SportsColor: "hsl(24, 70%, 50%)",
+    "Stationary":542,
+    StationaryColor: "hsl(294, 70%, 50%)",
+    "Others":542,
+    OthersColor: "hsl(284, 70%, 50%)",
   },
   {
     country: "UK",
-    "Paint": 40,
+    "Paint": 1540,
     "PaintColor": "hsl(87, 70%, 50%)",
     Clothing: 107,
     ClothingColor: "hsl(141, 70%, 50%)",
@@ -372,10 +421,22 @@ export const mockBarData = [
     FurnitureColor: "hsl(224, 70%, 50%)",
     Electronics: 2009,
     ElectronicsColor: "hsl(274, 70%, 50%)",
+    "Steel": 2032,
+    SteelColor: "hsl(254, 70%, 50%)",
+    "Decor":542,
+    DecorColor: "hsl(244, 70%, 50%)",
+    "Games":542,
+    GamesColor: "hsl(34, 70%, 50%)",
+    "Sports":542,
+    SportsColor: "hsl(24, 70%, 50%)",
+    "Stationary":542,
+    StationaryColor: "hsl(294, 70%, 50%)",
+    "Others":542,
+    OthersColor: "hsl(284, 70%, 50%)",
   },
   {
     country: "US",
-    "Paint": 82,
+    "Paint": 1382,
     "PaintColor": "hsl(87, 70%, 50%)",
     Clothing: 57,
     ClothingColor: "hsl(141, 70%, 50%)",
@@ -383,10 +444,22 @@ export const mockBarData = [
     FurnitureColor: "hsl(224, 70%, 50%)",
     Electronics: 89,
     ElectronicsColor: "hsl(274, 70%, 50%)",
+    "Steel": 2032,
+    SteelColor: "hsl(254, 70%, 50%)",
+    "Decor":542,
+    DecorColor: "hsl(244, 70%, 50%)",
+    "Games":542,
+    GamesColor: "hsl(34, 70%, 50%)",
+    "Sports":542,
+    SportsColor: "hsl(24, 70%, 50%)",
+    "Stationary":542,
+    StationaryColor: "hsl(294, 70%, 50%)",
+    "Others":542,
+    OthersColor: "hsl(284, 70%, 50%)",
   },
   {
     country: "IN",
-    "Paint": 80,
+    "Paint": 8080,
     "PaintColor": "hsl(87, 70%, 50%)",
     Clothing: 47,
     ClothingColor: "hsl(141, 70%, 50%)",
@@ -394,6 +467,18 @@ export const mockBarData = [
     FurnitureColor: "hsl(224, 70%, 50%)",
     Electronics: 49,
     ElectronicsColor: "hsl(274, 70%, 50%)",
+    "Steel": 2032,
+    SteelColor: "hsl(254, 70%, 50%)",
+    "Decor":542,
+    DecorColor: "hsl(244, 70%, 50%)",
+    "Games":542,
+    GamesColor: "hsl(34, 70%, 50%)",
+    "Sports":542,
+    SportsColor: "hsl(24, 70%, 50%)",
+    "Stationary":542,
+    StationaryColor: "hsl(294, 70%, 50%)",
+    "Others":542,
+    OthersColor: "hsl(284, 70%, 50%)",
   },
 ];
 
@@ -432,7 +517,7 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "India",
+    id: "AUS",
     color: tokens("dark").greenAccent[500],
     data: [
       {
@@ -472,14 +557,6 @@ export const mockLineData = [
         y: 281,
       },
       {
-        x: "Industrial Equipment",
-        y: 1,
-      },
-      {
-        x: "Medical Equipment",
-        y: 35,
-      },
-      {
         x: "others",
         y: 14,
       },
@@ -491,11 +568,11 @@ export const mockLineData = [
     data: [
       {
         x: "paint",
-        y: 212,
+        y: 112,
       },
       {
         x: "Clothing",
-        y: 190,
+        y: 200,
       },
       {
         x: "Electronics",
@@ -503,7 +580,7 @@ export const mockLineData = [
       },
       {
         x: "Furniture",
-        y: 9,
+        y: 90,
       },
       {
         x: "Steel",
@@ -526,26 +603,18 @@ export const mockLineData = [
         y: 97,
       },
       {
-        x: "Industrial Equipment",
-        y: 87,
-      },
-      {
-        x: "Medical Equipment",
-        y: 299,
-      },
-      {
         x: "others",
         y: 251,
       },
     ],
   },
   {
-    id: "us",
+    id: "US",
     color: tokens("dark").redAccent[200],
     data: [
       {
         x: "Paints",
-        y: 191,
+        y: 91,
       },
       {
         x: "Clothing",
@@ -553,7 +622,7 @@ export const mockLineData = [
       },
       {
         x: "Electronics",
-        y: 91,
+        y: 310,
       },
       {
         x: "Furniture",
@@ -577,15 +646,7 @@ export const mockLineData = [
       },
       {
         x: "Stationery",
-        y: 8,
-      },
-      {
-        x: "Industrial Equipment",
-        y: 197,
-      },
-      {
-        x: "Medical Equipment",
-        y: 107,
+        y: 80,
       },
       {
         x: "others",

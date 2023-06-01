@@ -32,7 +32,7 @@ const Warehouse_2 = () => {
         <Box m="20px">
             {/* HEADER */}
             <Box display="flex" justifyContent="space-beetween" alignItems="center" >
-                <Header title="DASHBOARD" />
+                <Header title="WareHouse Inventory Dashboard" />
             </Box>
 
             {/* GRID & CHARTS */}
@@ -146,7 +146,7 @@ const Warehouse_2 = () => {
                                 fontWeight="bold"
                                 color={colors.greenAccent[500]}
                             >
-                                $59,342.32
+                                ₹59,342.32
                             </Typography>
                         </Box>
 
@@ -175,11 +175,11 @@ const Warehouse_2 = () => {
                     </Box>
                     {mockTransactions.map((transaction, i) => (
                         <Box
-                            key={`${transaction.txId}-${i}`}
+                            key={`₹{transaction.txId}-₹{i}`}
                             display="flex"
                             justifyContent="space-between"
                             alignItems="center"
-                            borderBottom={`4px solid ${colors.primary[500]}`}
+                            borderBottom={`4px solid ₹{colors.primary[500]}`}
                             p="15px"
                         >
                             <Box>
@@ -200,7 +200,7 @@ const Warehouse_2 = () => {
                                 p="5px 10px"
                                 borderRadius="4px"
                             >
-                                ${transaction.cost}
+                                ₹{transaction.cost}
                             </Box>
                         </Box>
                     ))}
@@ -230,7 +230,7 @@ const Warehouse_2 = () => {
                         >
                             ₹48,352 revenue generated
                         </Typography>
-                        <Typography>Includes extra misc expenditures and costs</Typography>
+                        <Typography>Includes expenditures and costs</Typography>
                     </Box>
                 </Box>
                 <Box
@@ -245,14 +245,14 @@ const Warehouse_2 = () => {
                     >
                         Sales Quantity
                     </Typography>
-                    <Box height="250px" mt="-20px">
+                    <Box height="270px" mt="-20px">
                         <BarChart isDashboard={true} />
                     </Box>
                 </Box>
                 <Box
                     gridColumn="span 4"
                     gridRow="span 2"
-                    backgroundColor={colors.primary[400]}
+                    backgroundColor={colors.primary[1000]}
                     padding="30px"
                 >
                     <Typography
